@@ -1,7 +1,7 @@
 # marketing-agency
 Accessibility standards with SEO optimization.
 
-## Basic Overview - [Live Demo](link for live demo/)
+## Basic Overview - [Live Demo](https://marasinipradeep.github.io/marketing-agency/)
 
 This simple marketing agency prototype shows how HTML and CSS can be used to build a friendly website that meets accessibility standards. Also, follows the best practice for clean and correct markup.
 
