@@ -52,15 +52,22 @@ p {
     font-size: 16px;
 }
 
-.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-    border: 1px solid red;
+
+
+    .hero {
+        height: 800px;
+        width: 100%;
+        margin-bottom: 25px;
+        background-image: url("../images/digital-marketing-meeting.jpg");
+        background-size: cover;
+        background-position: center;
+        border: 1px solid red;
+    }
+
+    @media only screen and (min-width:1000 px) {
+      
 }
+
 
 .content {
     width: 75%;
@@ -118,6 +125,7 @@ p {
 
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
+    max-width: 100%;
 }
 
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
