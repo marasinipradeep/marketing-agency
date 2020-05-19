@@ -21,7 +21,7 @@ body {
 .topheader h1 {
     display: inline-block;
     font-size: 48px;
-    width: 30%; /**/
+    width: 25%; /**/
 }
 
 .topheader h1 .seo {
@@ -31,7 +31,7 @@ body {
 .topnav { 
     display: inline-block;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     overflow: hidden;
 }
 
@@ -55,24 +55,28 @@ p {
 
 
     .hero {
-        height: 800px;
+       /* height: 800px;
         width: 100%;
         margin-bottom: 25px;
         background-image: url("../images/digital-marketing-meeting.jpg");
         background-size: cover;
         background-position: center;
-        border: 1px solid red;
+        border: 1px solid red;*/
+        position: relative;
+        top: 5px;
+        background: url("../images/digital-marketing-meeting.jpg");
+        background-size: cover;
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
-    @media only screen and (min-width:1000 px) {
-      
-}
 
 
 .content {
     width: 75%;
-    display: inline-block;
-    margin-left: 5px;
+    display: inline-block;;
 }
 
 .float-left {
@@ -139,10 +143,9 @@ p {
 }
 
 .benefits {
-    margin-right: 5px;
     clear: both;
     float: right;
-    width: 22%;
+    width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    /* background-color: #2589bd;*/
@@ -155,13 +158,13 @@ p {
 }
 .benefit-lead img,.benefit-brand img, .benefit-cost img {
     display: block;
-    margin: 10px auto;
-    max-width: 120px;
+    max-width: 100%;
 }
 
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
+    
 }
 
 .bottomfooter{
@@ -173,6 +176,11 @@ p {
 
 .footer h2 {
     font-size: 20px;
+}
+
+.wrapper{
+    position: relative;
+    top: 10px;
 }
 
 
