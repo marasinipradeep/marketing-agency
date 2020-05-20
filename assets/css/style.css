@@ -1,16 +1,14 @@
+/* */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/*  Background color of the body is defined*/
-body {
+body {background-color: #d9dcd6; margin: 10px;}
 
-    background-color: #d9dcd6;
-    margin: 10px;
-}
-/*initialzation of top heading, font, font color and background color */
+p{font-size: 18px;}
+
 .topheader {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,15 +22,12 @@ body {
     width: 25%; /**/
 }
 
-.topheader h1 .seo {
-    color: #d9dcd6;
-}
+.topheader h1 .seo {color: #d9dcd6;}
 
 .topnav { 
     display: inline-block;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 24px;
-    overflow: hidden;
+    font-size: 22px;
 }
 
 .topnav a{
@@ -41,76 +36,37 @@ body {
     color: #ffffff;
     padding: 10px;
     text-decoration: none;
-    
 }
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-p {
-    font-size: 16px;
-}
-
-
 
     .hero {
-       /* height: 800px;
-        width: 100%;
-        margin-bottom: 25px;
-        background-image: url("../images/digital-marketing-meeting.jpg");
-        background-size: cover;
-        background-position: center;
-        border: 1px solid red;*/
         position: relative;
         top: 5px;
         background: url("../images/digital-marketing-meeting.jpg");
         background-size: cover;
-        height: 80vh;
+        height: 50vh;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
-
-
 .content {
-    width: 75%;
-    display: inline-block;;
+    max-width: 70%;
+    display: inline-block;
 }
 
-.float-left {
-    float: left;
-}
+.float-left {float: left;}
+.float-right {float: right;}
 
-
-.float-right {
-    float: right;
-    
-}
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-
-}
-
+/*when screen size is bigger then 873 px*/
 @media only screen and (min-width: 873px) {
-    .search-engine-optimization {
-    height: 300px;
-    }
-    .online-reputation-management {
-        height: 310px;
-    }
-    .social-media-marketing {
-        height: 300px;
-    }
-    
+    #search-engine-optimization {height: 300px;}
+    #online-reputation-management {height: 310px;}
+    #social-media-marketing {height: 300px;}
+    .hero{height: 80vh;}
+    .content{max-width: 75%;}
    }
 
-.online-reputation-management {
+   #search-engine-optimization,#online-reputation-management,#social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -118,29 +74,11 @@ p {
     color: #ffffff;
 }
 
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
+.resetimages{max-height: 200px;max-width: 100%;}
+.paragraph{position: relative; left: 5px;}
+.contentheadingsize{margin-bottom: 20px; font-size: 36px;}
+.asideheadingsize{margin-bottom: 10px; text-align: center;}
 
-
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
-    max-height: 200px;
-    max-width: 100%;
-}
-
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.paragraph{
-    position: relative;
-    left: 5px;
-}
 
 .benefits {
     clear: both;
@@ -152,36 +90,17 @@ p {
    background-color: #0070bb;
 }
 
-.benefit-lead, .benefit-brand, .benefit-cost{
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-.benefit-lead img,.benefit-brand img, .benefit-cost img {
-    display: block;
-    max-width: 100%;
-}
+#benefit-lead, #benefit-brand, #benefit-cost{margin-bottom: 32px; color: #ffffff;}
 
-.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-    
-}
-
-.bottomfooter{
+#bottomfooter{
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
-    font-size: 20px;
-}
+#bottomheading{font-size: 20px;}
 
-.wrapper{
-    position: relative;
-    top: 10px;
-}
 
 
 
