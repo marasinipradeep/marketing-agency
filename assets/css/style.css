@@ -1,14 +1,17 @@
-/* */
+/* ----Intitializing all margin and padding zero---- */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* ----Intitializing color of body part---- */
 body {background-color: #d9dcd6; margin: 10px;}
 
+/* ----Defining paragraph font size---- */
 p{font-size: 18px;}
 
+/* ----start of top header---- */
 .topheader {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,6 +27,7 @@ p{font-size: 18px;}
 
 .topheader h1 .seo {color: #d9dcd6;}
 
+/* ----start of navigation links---- */
 .topnav { 
     display: inline-block;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -37,54 +41,60 @@ p{font-size: 18px;}
     padding: 10px;
     text-decoration: none;
 }
+/* ----End of Nav bar---- */
 
+/* ----Start of background hero image---- */
     .hero {
         position: relative;
         top: 5px;
         background: url("../images/digital-marketing-meeting.jpg");
         background-size: cover;
-        height: 50vh;
+        height: 60vh;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
+/* ----Intitializing main content width and display properties---- */
 .content {
-    max-width: 70%;
     display: inline-block;
 }
 
+/* ----Defining floats for different images to shift left and right---- */
 .float-left {float: left;}
 .float-right {float: right;}
 
-/*when screen size is bigger then 873 px*/
-@media only screen and (min-width: 873px) {
+/* ----When screen size is bigger then 873 px---- */
+@media only screen and (min-width: 870px) {
     #search-engine-optimization {height: 300px;}
     #online-reputation-management {height: 310px;}
     #social-media-marketing {height: 300px;}
     .hero{height: 80vh;}
     .content{max-width: 75%;}
+    .benefits{max-width: 24%;}
    }
+   
+
 
    #search-engine-optimization,#online-reputation-management,#social-media-marketing {
-    margin-bottom: 20px;
+    margin-top: 10px;   
+    margin-bottom: 10px;
     padding: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
 
-.resetimages{max-height: 200px;max-width: 100%;}
+.resetimages{max-height: 160px;max-width: 100%;}
 .paragraph{position: relative; left: 5px;}
 .contentheadingsize{margin-bottom: 20px; font-size: 36px;}
-.asideheadingsize{margin-bottom: 10px; text-align: center;}
+.asideheadingset{margin-bottom: 10px; text-align: center;}
+.resetasidelogo{max-height: 100px;max-width: 50%;}
 
 
 .benefits {
-    clear: both;
+    margin-top: 10px;
     float: right;
-    width: 20%;
-    height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    /* background-color: #2589bd;*/
    background-color: #0070bb;
