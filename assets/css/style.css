@@ -1,22 +1,19 @@
 /* ----Intitializing all margin and padding zero---- */
-* {
+* { 
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/* ----Intitializing color of main body ---- */
 body {background-color: #d9dcd6; margin: 10px;}
-
-/* ----Defining paragraph font size---- */
-p{font-size: 18px;}
+p {font-size: 18px;}
 
 /* ----start of top header---- */
 .topheader {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   /*  background-color: #2a607c;*/
-  background-color: #235067;
+    background-color: #235067;
     color: #ffffff;
 }
 
@@ -57,10 +54,8 @@ p{font-size: 18px;}
         justify-content: center;
     }
 
-/* ----Intitializing main content width and display properties---- */
-.content {
-    display: inline-block;
-}
+/* ----Main content---- */
+.content {display: inline-block;}
 
 /* ----Defining floats for different images to shift left and right---- */
 .float-left {float: left;}
@@ -78,7 +73,6 @@ p{font-size: 18px;}
    
 /* ----Basic design for main contents---- */
    #search-engine-optimization,#online-reputation-management,#social-media-marketing {
-    
     margin-top: 10px;   
     margin-bottom: 10px;
     padding: 50px;
