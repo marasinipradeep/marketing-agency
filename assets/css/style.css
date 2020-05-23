@@ -61,15 +61,7 @@ p {font-size: 18px;}
 .float-left {float: left;}
 .float-right {float: right;}
 
-/* ----When screen size is bigger then 873 px---- */
-@media only screen and (min-width: 870px) {
-    #search-engine-optimization {height: 300px;}
-    #online-reputation-management {height: 310px;}
-    #social-media-marketing {height: 300px;}
-    .hero{height: 80vh;}
-    .content{max-width: 75%;}
-    .benefits{max-width: 24%;}
-   }
+
    
 /* ----Basic design for main contents---- */
    #search-engine-optimization,#online-reputation-management,#social-media-marketing {
@@ -110,6 +102,17 @@ p {font-size: 18px;}
 }
 
 #bottomheading{font-size: 20px;}
+
+
+/* ----When screen size is bigger then 873 px---- */
+@media only screen and (min-width: 870px) {
+    #search-engine-optimization {height: 300px;}
+    #online-reputation-management {height: 310px;}
+    #social-media-marketing {height: 300px;}
+    .hero{height: 80vh;}
+    .content{max-width: 75%;}
+    .benefits{max-width: 24%;}
+   }
 /* ----End of Page---- */
 
 
